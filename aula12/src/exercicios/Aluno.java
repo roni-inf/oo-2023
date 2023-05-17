@@ -12,11 +12,11 @@ public class Aluno {
 		this.nome = nome;
 		this.nota1 = nota1;
 		this.nota2 = nota2;
-	}
+	} 
 
 	@Override
 	public String toString() {
-		return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + "]";
+		return "nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + "]";
 	}
 
 	public String getNome() {
